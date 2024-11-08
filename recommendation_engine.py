@@ -8,11 +8,7 @@ from sklearn.neighbors import NearestNeighbors
 
 books_filename = 'BX-Books.csv'
 ratings_filename = 'BX-Book-Ratings.csv'
-'''
-books = pd.read_csv('BX-Books.csv', sep=';', encoding='ISO-8859-1', on_bad_lines='skip', low_memory=False)
-ratings = pd.read_csv('BX-Book-Ratings.csv', sep=';', encoding='ISO-8859-1', on_bad_lines='skip', low_memory=False)
-users = pd.read_csv('BX-Users.csv', sep=';', encoding='ISO-8859-1', on_bad_lines='skip', low_memory=False)
-'''
+
 # import csv data into dataframes
 df_books = pd.read_csv(
     books_filename,
