@@ -1,7 +1,7 @@
 # Book-Recommendation-Engine-using-KNN
 This repository contains a Book Recommendation Engine developed using the K-Nearest Neighbors (KNN) algorithm. The model is designed to recommend books based on user ratings, leveraging similarity between books to suggest titles with similar patterns of engagement.
 <<<<<<< HEAD
-##Overview
+## Overview
 The engine uses the Book-Crossings dataset, which includes:
 
 1.1 million ratings (scale of 1-10)
@@ -9,12 +9,13 @@ The engine uses the Book-Crossings dataset, which includes:
 90,000 users
 After data cleaning and processing, the model filters out users with fewer than 200 ratings and books with fewer than 100 ratings to ensure statistical relevance. It then constructs a user-book matrix and applies KNN with cosine similarity to determine the closest books for any given title.
 
-##Features
+## Features
+
 Data Cleaning: Ensures data quality by filtering infrequent users and books.
 Cosine Similarity: Measures the similarity between books based on ratings.
 Efficient Recommendation Function: Provides a list of five similar books for any title queried.
 Sparse Matrix Representation: Optimizes memory usage for large datasets.
-##Usage
+## Usage
 The get_recommends function accepts a book title as input and returns:
 =======
 ## Overview 
